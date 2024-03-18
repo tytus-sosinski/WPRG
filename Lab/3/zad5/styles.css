@@ -1,0 +1,19 @@
+.parent {
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+h1 {
+    color: lightgrey;
+}
+
+.container {
+    width: 240px;
+    height: 240px;
+    background-color: red;
+    margin: 5px;
+}
+
+.container:nth-of-type(2) {
+    background-color: darkblue;
+}

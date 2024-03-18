@@ -1,0 +1,11 @@
+.container {
+    background-color: #ECECEC;
+    font-size: 24px;
+}
+span > span {
+    color: red;
+    font-size: 20px;
+}
+.container > span:nth-child(5) {
+    color: red;
+}
